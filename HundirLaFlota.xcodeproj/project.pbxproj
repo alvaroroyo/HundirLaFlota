@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D571AF7E1D4C084300F82C6C /* NewGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D571AF7D1D4C084300F82C6C /* NewGame.swift */; };
+		D5756B4D1D4A2E89005C7E59 /* boat2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5756B481D4A2E89005C7E59 /* boat2.png */; };
+		D5756B4E1D4A2E89005C7E59 /* boat3.png in Resources */ = {isa = PBXBuildFile; fileRef = D5756B491D4A2E89005C7E59 /* boat3.png */; };
+		D5756B4F1D4A2E89005C7E59 /* boat5.png in Resources */ = {isa = PBXBuildFile; fileRef = D5756B4A1D4A2E89005C7E59 /* boat5.png */; };
+		D5756B501D4A2E89005C7E59 /* boat6.png in Resources */ = {isa = PBXBuildFile; fileRef = D5756B4B1D4A2E89005C7E59 /* boat6.png */; };
+		D5756B511D4A2E89005C7E59 /* boat4.png in Resources */ = {isa = PBXBuildFile; fileRef = D5756B4C1D4A2E89005C7E59 /* boat4.png */; };
+		D5BCCD701D498F93005EF103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCCD6F1D498F93005EF103 /* AppDelegate.swift */; };
+		D5BCCD721D498F93005EF103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCCD711D498F93005EF103 /* ViewController.swift */; };
+		D5BCCD771D498F93005EF103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BCCD761D498F93005EF103 /* Assets.xcassets */; };
+		D5BCCD7A1D498F93005EF103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BCCD781D498F93005EF103 /* LaunchScreen.storyboard */; };
+		D5BCCD831D49914B005EF103 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCCD821D49914B005EF103 /* Table.swift */; };
+		D5BCCD851D499159005EF103 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCCD841D499159005EF103 /* Player.swift */; };
+		D5BCCD871D49916F005EF103 /* Panel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCCD861D49916F005EF103 /* Panel.swift */; };
+		D5BCCD891D49924D005EF103 /* Boat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCCD881D49924D005EF103 /* Boat.swift */; };
+		D5BCCD8C1D4992FC005EF103 /* UIColor+HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCCD8B1D4992FC005EF103 /* UIColor+HexColor.swift */; };
+		D5BCCD921D49A6A3005EF103 /* CooperBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5BCCD911D49A6A3005EF103 /* CooperBlack.ttf */; };
+		D5CB4FBB1D4D86F800D6E841 /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = D5CB4FBA1D4D86F800D6E841 /* rotate.png */; };
+		D5CB4FBF1D4DBEFE00D6E841 /* water.wav in Resources */ = {isa = PBXBuildFile; fileRef = D5CB4FBD1D4DBEFE00D6E841 /* water.wav */; };
+		D5CB4FC01D4DBEFE00D6E841 /* bomb.wav in Resources */ = {isa = PBXBuildFile; fileRef = D5CB4FBE1D4DBEFE00D6E841 /* bomb.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D571AF7D1D4C084300F82C6C /* NewGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGame.swift; sourceTree = "<group>"; };
+		D5756B481D4A2E89005C7E59 /* boat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat2.png; sourceTree = "<group>"; };
+		D5756B491D4A2E89005C7E59 /* boat3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat3.png; sourceTree = "<group>"; };
+		D5756B4A1D4A2E89005C7E59 /* boat5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat5.png; sourceTree = "<group>"; };
+		D5756B4B1D4A2E89005C7E59 /* boat6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat6.png; sourceTree = "<group>"; };
+		D5756B4C1D4A2E89005C7E59 /* boat4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat4.png; sourceTree = "<group>"; };
+		D5BCCD6C1D498F93005EF103 /* HundirLaFlota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HundirLaFlota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BCCD6F1D498F93005EF103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5BCCD711D498F93005EF103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5BCCD761D498F93005EF103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5BCCD791D498F93005EF103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5BCCD7B1D498F93005EF103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BCCD821D49914B005EF103 /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		D5BCCD841D499159005EF103 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D5BCCD861D49916F005EF103 /* Panel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panel.swift; sourceTree = "<group>"; };
+		D5BCCD881D49924D005EF103 /* Boat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boat.swift; sourceTree = "<group>"; };
+		D5BCCD8B1D4992FC005EF103 /* UIColor+HexColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
+		D5BCCD911D49A6A3005EF103 /* CooperBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CooperBlack.ttf; sourceTree = "<group>"; };
+		D5CB4FBA1D4D86F800D6E841 /* rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate.png; sourceTree = "<group>"; };
+		D5CB4FBD1D4DBEFE00D6E841 /* water.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = water.wav; sourceTree = "<group>"; };
+		D5CB4FBE1D4DBEFE00D6E841 /* bomb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bomb.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5BCCD691D498F93005EF103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5BCCD631D498F93005EF103 = {
+			isa = PBXGroup;
+			children = (
+				D5BCCD6E1D498F93005EF103 /* HundirLaFlota */,
+				D5BCCD6D1D498F93005EF103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5BCCD6D1D498F93005EF103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5BCCD6C1D498F93005EF103 /* HundirLaFlota.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5BCCD6E1D498F93005EF103 /* HundirLaFlota */ = {
+			isa = PBXGroup;
+			children = (
+				D5BCCD8E1D499D88005EF103 /* Resources */,
+				D5BCCD8A1D4992F1005EF103 /* Extensions */,
+				D5BCCD811D499123005EF103 /* Views */,
+				D5BCCD6F1D498F93005EF103 /* AppDelegate.swift */,
+				D5BCCD711D498F93005EF103 /* ViewController.swift */,
+				D5BCCD761D498F93005EF103 /* Assets.xcassets */,
+				D5BCCD781D498F93005EF103 /* LaunchScreen.storyboard */,
+				D5BCCD7B1D498F93005EF103 /* Info.plist */,
+			);
+			path = HundirLaFlota;
+			sourceTree = "<group>";
+		};
+		D5BCCD811D499123005EF103 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5BCCD821D49914B005EF103 /* Table.swift */,
+				D5BCCD841D499159005EF103 /* Player.swift */,
+				D5BCCD861D49916F005EF103 /* Panel.swift */,
+				D5BCCD881D49924D005EF103 /* Boat.swift */,
+				D571AF7D1D4C084300F82C6C /* NewGame.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D5BCCD8A1D4992F1005EF103 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5BCCD8B1D4992FC005EF103 /* UIColor+HexColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D5BCCD8E1D499D88005EF103 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5CB4FBC1D4DBEE600D6E841 /* Sounds */,
+				D5BCCD911D49A6A3005EF103 /* CooperBlack.ttf */,
+				D5BCCD8F1D499D94005EF103 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D5BCCD8F1D499D94005EF103 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D5CB4FBA1D4D86F800D6E841 /* rotate.png */,
+				D5756B481D4A2E89005C7E59 /* boat2.png */,
+				D5756B491D4A2E89005C7E59 /* boat3.png */,
+				D5756B4C1D4A2E89005C7E59 /* boat4.png */,
+				D5756B4A1D4A2E89005C7E59 /* boat5.png */,
+				D5756B4B1D4A2E89005C7E59 /* boat6.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D5CB4FBC1D4DBEE600D6E841 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D5CB4FBD1D4DBEFE00D6E841 /* water.wav */,
+				D5CB4FBE1D4DBEFE00D6E841 /* bomb.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5BCCD6B1D498F93005EF103 /* HundirLaFlota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BCCD7E1D498F93005EF103 /* Build configuration list for PBXNativeTarget "HundirLaFlota" */;
+			buildPhases = (
+				D5BCCD681D498F93005EF103 /* Sources */,
+				D5BCCD691D498F93005EF103 /* Frameworks */,
+				D5BCCD6A1D498F93005EF103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HundirLaFlota;
+			productName = HundirLaFlota;
+			productReference = D5BCCD6C1D498F93005EF103 /* HundirLaFlota.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5BCCD641D498F93005EF103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = alvaroroyo;
+				TargetAttributes = {
+					D5BCCD6B1D498F93005EF103 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D5BCCD671D498F93005EF103 /* Build configuration list for PBXProject "HundirLaFlota" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5BCCD631D498F93005EF103;
+			productRefGroup = D5BCCD6D1D498F93005EF103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5BCCD6B1D498F93005EF103 /* HundirLaFlota */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5BCCD6A1D498F93005EF103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CB4FBF1D4DBEFE00D6E841 /* water.wav in Resources */,
+				D5756B511D4A2E89005C7E59 /* boat4.png in Resources */,
+				D5756B501D4A2E89005C7E59 /* boat6.png in Resources */,
+				D5756B4F1D4A2E89005C7E59 /* boat5.png in Resources */,
+				D5CB4FC01D4DBEFE00D6E841 /* bomb.wav in Resources */,
+				D5756B4D1D4A2E89005C7E59 /* boat2.png in Resources */,
+				D5CB4FBB1D4D86F800D6E841 /* rotate.png in Resources */,
+				D5756B4E1D4A2E89005C7E59 /* boat3.png in Resources */,
+				D5BCCD7A1D498F93005EF103 /* LaunchScreen.storyboard in Resources */,
+				D5BCCD921D49A6A3005EF103 /* CooperBlack.ttf in Resources */,
+				D5BCCD771D498F93005EF103 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5BCCD681D498F93005EF103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BCCD851D499159005EF103 /* Player.swift in Sources */,
+				D5BCCD871D49916F005EF103 /* Panel.swift in Sources */,
+				D5BCCD831D49914B005EF103 /* Table.swift in Sources */,
+				D5BCCD8C1D4992FC005EF103 /* UIColor+HexColor.swift in Sources */,
+				D571AF7E1D4C084300F82C6C /* NewGame.swift in Sources */,
+				D5BCCD891D49924D005EF103 /* Boat.swift in Sources */,
+				D5BCCD721D498F93005EF103 /* ViewController.swift in Sources */,
+				D5BCCD701D498F93005EF103 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5BCCD781D498F93005EF103 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5BCCD791D498F93005EF103 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5BCCD7C1D498F93005EF103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5BCCD7D1D498F93005EF103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5BCCD7F1D498F93005EF103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HundirLaFlota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvaroroyo.HundirLaFlota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D5BCCD801D498F93005EF103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HundirLaFlota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvaroroyo.HundirLaFlota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5BCCD671D498F93005EF103 /* Build configuration list for PBXProject "HundirLaFlota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BCCD7C1D498F93005EF103 /* Debug */,
+				D5BCCD7D1D498F93005EF103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BCCD7E1D498F93005EF103 /* Build configuration list for PBXNativeTarget "HundirLaFlota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BCCD7F1D498F93005EF103 /* Debug */,
+				D5BCCD801D498F93005EF103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5BCCD641D498F93005EF103 /* Project object */;
+}
