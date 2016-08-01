@@ -1,8 +1,9 @@
 # Hundir la flota
 
-![Hundir la flota](http://i67.tinypic.com/28bfxuu.png =450x256)
-![Hundir la flota](http://i67.tinypic.com/2lnz24i.png =450x256)
-![Hundir la flota](http://i67.tinypic.com/2cy39yo.png =450x256)
+<img src="http://i67.tinypic.com/28bfxuu.png" width="450" height="256">
+<img src="http://i67.tinypic.com/2lnz24i.png" width="450" height="256">
+<img src="http://i67.tinypic.com/2cy39yo.png" width="450" height="256">
+<img src="http://i68.tinypic.com/14ngun5.png" width="450" height="256">
 
 ## Descripción
 
